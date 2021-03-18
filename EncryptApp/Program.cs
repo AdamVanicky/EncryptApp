@@ -43,7 +43,7 @@ Caesar ~ Caesarova šifra s klíčem 7
         {
             string result = "";
 
-            for(int i = 0; i < inputS.Length; i++)
+            for (int i = 0; i < inputS.Length; i++)
             {
                 int keyPos = i % encryptKey.Length;
 
@@ -57,7 +57,6 @@ Caesar ~ Caesarova šifra s klíčem 7
 
                 result += combineChar;
             }
-
             Console.WriteLine("Výsledkem šifrování je: " + result);
 
             Console.WriteLine("Chcete dešifrovat? ");
